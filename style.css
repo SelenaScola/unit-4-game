@@ -3,58 +3,95 @@
  
  
  #container { 
+/* I'm just here */
+text-align: center;
+float: right;
+width: 75%;
+padding-top: 0px;
+padding-right: 20px;
+margin-right: 5%;
+
 
  }
 
+ h1 {
+     /* The Rain Game! */
+    background: transparent;
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+/* header {  */
+    /* Players */
+    /* color: whitesmoke; */
+    /* text-align: left; */
+    /* font-size: 40px; */
+    /* background:transparent; */
+    
+/* } */
+
+p {
+    /* character titles */
+    background: transparent;
+    color: whitesmoke;
+    font-size: 25px;
+    padding-top: 0px;
+    font-weight: bold;
+    
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding-right: 10px;
+    
+  }
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: all;
+    display: table;
+
+  }
+
 body {
-    /* background: #777; */
     background-image: url("images/windmill-live-wallpaper.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     background-color: lightskyblue;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: 'Gloria Hallelujah', cursive;
     font-family: 'Indie Flower', cursive;
-    font-size: 18px;
-    margin-left: 250px;
-    text-align: center;
-    width: 1000px;
-}
+    /* margin-left: 300px; */
+    
+    
 
-header { 
-    /* Players */
-    color: whitesmoke;
-    text-align: left;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background:transparent;
 }
 
 
-h1 {
-    background: transparent;
-    color: whitesmoke;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+#borderimg1 { 
+    border: 10px solid;
+    padding: 20px;
+    border-image: url(images/robot-rain.gif) 30 stretch;
+
 }
 
-h2 {
-    background: transparent;
-    color: whitesmoke;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+#borderimg2 { 
+    border: 10px solid;
+    padding: 20px;
+    border-color: yellow;
 }
 
-p {
-    background: #ebebeb;
-    color: #777;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+#borderimg3 { 
+    border: 10px solid;
+    padding: 20px;
+    border-image: url(images/duck-rain.gif) 30 stretch;
+}
+
+#borderimg4 { 
+    border: 10px solid;
+    padding: 20px;
+    border-image: url(images/gat-cloud.gif) 30 stretch;
 }
