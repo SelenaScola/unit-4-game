@@ -1,0 +1,60 @@
+
+ 
+ 
+ 
+ #container { 
+
+ }
+
+body {
+    /* background: #777; */
+    background-image: url("images/windmill-live-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: lightskyblue;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    margin-left: 250px;
+    text-align: center;
+    width: 1000px;
+}
+
+header { 
+    /* Players */
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background:transparent;
+}
+
+
+h1 {
+    background: transparent;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h2 {
+    background: transparent;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+p {
+    background: #ebebeb;
+    color: #777;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
